@@ -62,7 +62,7 @@
                     <br> <br>
                     Untuk info lebih lengkap dari acara pernikahan kami, bisa kunjungi link yang tertera di bawah ini:
                     <br> <br>
-                    https://haribahagia.site/weddinghilmareza?to=${link}
+                    https://wedding-reza-hilma.vercel.app?to=${link}
                     <br> <br>
                     Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa serta restu untuk kami yang berbahagia.
                     <br> <br>
@@ -74,7 +74,7 @@
                 </div>
             </div>`);
           let textCopied = $("#textcopied").val(
-            `Bismillahirahmanirrahim. \nAssalamu'alaikum Wr. Wb\nYth. ${nama}\n \nTanpa mengurangi rasa hormat, perkenankan kami untuk mengundang Bapak/Ibu/Saudara/i, teman, kerabat dan sahabat, untuk menghadiri acara pernikahan kami :\n \nReza  & Hilma\n \nUntuk info lebih lengkap dari acara pernikahan kami, bisa kunjungi link yang tertera di bawah ini:\n \n \nhttps://haribahagia.site/weddinghilmareza?to=${link}\n \nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa serta restu untuk kami yang berbahagia.\n \nMohon maaf apabila ada kesalahan dalam penulisan nama & gelar Bapak/Ibu/Saudara/i pada undangan ini. Terima kasih banyak atas perhatiannya.\n \nWassalamu'alaikum Wr. Wb.`
+            `Bismillahirahmanirrahim. \nAssalamu'alaikum Wr. Wb\nYth. ${nama}\n \nTanpa mengurangi rasa hormat, perkenankan kami untuk mengundang Bapak/Ibu/Saudara/i, teman, kerabat dan sahabat, untuk menghadiri acara pernikahan kami :\n \nReza  & Hilma\n \nUntuk info lebih lengkap dari acara pernikahan kami, bisa kunjungi link yang tertera di bawah ini:\n \n \nhttps://wedding-reza-hilma.vercel.app?to=${link}\n \nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa serta restu untuk kami yang berbahagia.\n \nMohon maaf apabila ada kesalahan dalam penulisan nama & gelar Bapak/Ibu/Saudara/i pada undangan ini. Terima kasih banyak atas perhatiannya.\n \nWassalamu'alaikum Wr. Wb.`
           );
           $("#copy").on("click", function () {
             var copyText = document.getElementById("textcopied");
